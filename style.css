@@ -1,19 +1,19 @@
 body{
     background: #fafafa;
 }
-.dino{
+.totoro{
     position: absolute;
     bottom: 0;
-    background-image: url(dino.png);
+    background-image: url(totoro.png);
     width: 60px;
-    height: 60px;
+    height: 89px;
 }
-.cactus{
+.purmoonTotoro{
     position: absolute;
     width: 60px;
     height: 60px;
     bottom: 0;
-    background-image: url(cactus.png);
+    background-image: url(purmoon-totoro.png);
 }
 .game-over{
     text-align: center;
@@ -23,7 +23,7 @@ body{
 }
 @keyframes slideright{
     from{
-        background-position: 70000%;
+        background-position: 60000%;
     }
     to{
         background-position: 0%;
@@ -38,4 +38,5 @@ body{
     -webkit-animation: slideright 600s infinite linear;
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
 }
